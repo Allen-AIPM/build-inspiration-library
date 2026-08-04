@@ -1,8 +1,8 @@
 window.GALLERY_DATA = {
   "title": "建筑素材灵感空间",
   "userName": "灵感策展人",
-  "generatedAt": "2026-08-04 20:53:54",
-  "total": 54,
+  "generatedAt": "2026-08-04 20:59:42",
+  "total": 56,
   "items": [
     {
       "id": "20260728204940224",
@@ -747,8 +747,36 @@ window.GALLERY_DATA = {
       "matched": true
     },
     {
-      "id": "d8504232b7edf416d7f955a8dcfef947",
+      "id": "20260804205757790",
       "index": 54,
+      "filename": "20260804205757790.jpeg",
+      "image": "image/20260804205757790.jpeg",
+      "title": "未命名建筑灵感",
+      "author": "未知作者",
+      "likes": 0,
+      "url": "",
+      "keyword": "",
+      "sourceImageUrl": "",
+      "time": "20260804205757790",
+      "matched": false
+    },
+    {
+      "id": "20260804205815695",
+      "index": 55,
+      "filename": "20260804205815695.jpeg",
+      "image": "image/20260804205815695.jpeg",
+      "title": "未命名建筑灵感",
+      "author": "未知作者",
+      "likes": 0,
+      "url": "",
+      "keyword": "",
+      "sourceImageUrl": "",
+      "time": "20260804205815695",
+      "matched": false
+    },
+    {
+      "id": "d8504232b7edf416d7f955a8dcfef947",
+      "index": 56,
       "filename": "d8504232b7edf416d7f955a8dcfef947.jpg",
       "image": "image/d8504232b7edf416d7f955a8dcfef947.jpg",
       "title": "d8504232b7edf416d7f955a8dcfef947",
