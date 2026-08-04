@@ -40,3 +40,9 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local AI tagging credentials and generated local files
+/ai_config.json
+/.ai_tag_cache/
+/ai_tag_log.txt
+/public/image-tags.js

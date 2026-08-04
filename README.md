@@ -27,6 +27,14 @@ npm run dev
 npm run build
 ```
 
+## 每日更新图片
+
+1. 将影刀爬取的新图片直接放入 `public/images/`。
+2. 将图片标题、作者、网址等资料追加到根目录的 `图片信息.xlsx`。
+3. 双击运行根目录的 `更新图片库.bat`。
+
+该脚本会依次更新网站资料、为未打标的新图片完成 AI 打标，并直接写入 `public/gallery-data.js` 和 `public/image-tags.json`。之后只需将图片与这两个数据文件提交到 GitHub，Cloudflare Pages 会自动更新网站。
+
 ## 项目内容
 
 - `app/`：页面与交互组件
