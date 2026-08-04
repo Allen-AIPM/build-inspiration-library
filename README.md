@@ -1,4 +1,6 @@
-# Build Inspiration Library
+# 欢迎使用我的灵感库
+
+## Build Inspiration Library
 
 一个面向建筑、室内与空间创作的视觉灵感图库。项目使用 React + Vite（vinext）构建，包含瀑布流图库、AI 标签检索、图片详情、大图预览与本地评论交互。
 
