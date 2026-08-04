@@ -45,4 +45,11 @@ next-env.d.ts
 /ai_config.json
 /.ai_tag_cache/
 /ai_tag_log.txt
+/更新图片库.log
+/gallery-update.log
+/image-mhash.json
+/dedupe-report.json
+/duplicates/
+__pycache__/
+~$*.xlsx
 /public/image-tags.js

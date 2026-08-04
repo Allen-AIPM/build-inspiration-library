@@ -33,7 +33,9 @@ npm run build
 2. 将图片标题、作者、网址等资料追加到根目录的 `图片信息.xlsx`。
 3. 双击运行根目录的 `更新图片库.bat`。
 
-该脚本会依次更新网站资料、为未打标的新图片完成 AI 打标，并直接写入 `public/gallery-data.js` 和 `public/image-tags.json`。之后只需将图片与这两个数据文件提交到 GitHub，Cloudflare Pages 会自动更新网站。
+该脚本会先使用 256 位 Marr-Hildreth MHash 扫描新图片。与旧图高度相似的图片会移入本地 `duplicates/` 文件夹，保留旧图且不进入资料更新与 AI 打标流程。随后脚本更新资料、为未打标的新图片完成 AI 打标，并直接写入 `public/gallery-data.js` 和 `public/image-tags.json`。之后只需将图片与这两个数据文件提交到 GitHub，Cloudflare Pages 会自动更新网站。
+
+如果脚本异常退出，请打开根目录的 `更新图片库.log` 查看具体原因；脚本窗口也会保留，不会自动关闭。
 
 ## 项目内容
 
